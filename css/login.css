@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.form_outer_div {
+    width: 400px;
+    height: calc(100vh - 20vh);
+    position: relative;
+    top: calc((100vh - 80vh) / 2);
+    left: calc((100vw - 400px) / 2);
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(231, 231, 190), rgb(199, 162, 190));
+}
+
+#login_form {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+}
+
+.login_form_inner_div1,
+.login_form_inner_div2 {
+    width: 80%;
+    height: 40px;
+}
+
+.labels {
+    font-size: 22px;
+}
+
+#user_pass,
+#user_email,
+#user_mobile,
+#user_address,
+#user_education {
+    width: 97.5%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+}
+
+#user_login:focus,
+#user_pass:focus,
+#first_name:focus,
+#last_name:focus,
+#user_email:focus,
+#user_mobile:focus,
+#user_address:focus,
+#user_education:focus {
+    border: 2px solid rgb(139, 209, 26);
+}
+
+#student,
+#tutor,
+#admin,
+#male,
+#female,
+#other {
+    width: 18px;
+    height: 18px;
+}
+
+#submit {
+    width: 40%;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(98, 98, 230);
+    color: white;
+    font-size: 20px;
+
+}
+
+#registration_link {
+    width: 28%;
+    /* position: relative;
+    left: calc((100% - 100px) / 2); */
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Registration form css  is starting Here*/
+.register_outer_class {
+    top: calc((100vh - 90vh) / 2);
+    height: 1100px;
+}
+
+.last_lbl {
+    margin-left: 62px;
+}
+
+#first_name,
+#last_name {
+    width: 47%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+}
+
+.register_form_inner_div2 {
+    position: relative;
+    top: -40px;
+}
+
+.register_submit {
+    margin-top: -60px;
+
+}
+
+.message_display {
+    display: none;
+}
+
+.error_message {
+    background-color: rgb(243, 166, 156);
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(209, 65, 46);
+    display: flex;
+}
+
+.success_message {
+    background-color: rgb(168, 218, 168);
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(12, 180, 12);
+    display: flex;
+}
+
+.warning_message {
+    background-color: rgb(229, 231, 112);
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(168, 170, 22);
+    display: flex;
+}
+
+.message {
+    width: 89%;
+    height: 40px;
+    font-size: 20px;
+    line-height: 35px;
+    text-indent: 10px;
+}
+
+.close_massage {
+    width: 11%;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(199, 230, 230);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* admin panel css */
+.button_css{
+    width : 60%; 
+}

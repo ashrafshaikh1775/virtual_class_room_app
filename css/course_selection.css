@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    /* background-color: rgb(3, 48, 48); */
+    position: relative;
+    top: calc((100vh - 80vh)/2);
+    left: calc((100vw - 50vw) / 2);
+}
+.course_form_outer_div {
+    width: 100%;
+    height: 100%;
+    /* position: relative;
+    top: calc((100vh - 80vh)/2);
+    left: calc((100vw - 50vw) / 2); */
+    overflow-x: auto;
+    /* background-color: aqua; */
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #b9cf38c9;
+}
+
+table tr {
+    height: 40px;
+}
+
+table td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+#enroll{
+    width: 40%;
+    height: 40px;
+    position: relative;
+    left: calc((100% - 40%) / 2);
+    /* bottom: 10px; */
+    background-color: #b9cf38c9;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.message_display {
+    display: none;
+}
+
+.error_message {
+    background-color: rgb(243, 166, 156);
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(209, 65, 46);
+    display: flex;
+}
+
+.success_message {
+    background-color: rgb(168, 218, 168);
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(12, 180, 12);
+    display: flex;
+}
+
+.warning_message {
+    background-color: rgb(229, 231, 112);
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(168, 170, 22);
+    display: flex;
+}
+
+.message {
+    width: 89%;
+    height: 40px;
+    font-size: 20px;
+    line-height: 35px;
+    text-indent: 10px;
+}
+
+.close_massage {
+    width: 11%;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(199, 230, 230);
+    border-radius: 10px;
+    cursor: pointer;
+}
