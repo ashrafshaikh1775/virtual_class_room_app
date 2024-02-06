@@ -88,7 +88,6 @@ font-size: 20px;
          <table id="table">
                 <tr>
                     <th>Student Name</th>
-                    <!-- <th>Enrolled</th> -->
                     <th>Permission</th>
                     
                 </tr>

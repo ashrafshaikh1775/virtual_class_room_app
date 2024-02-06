@@ -3,7 +3,7 @@ class conn{
     private $server = "localhost";
     private $username = "root";
     private $password = "";
-    private $dbname="school_management_system";
+    private $dbname="virtual_class_room_app";
     public $mysqli;
     public $result = [];
     public function __construct()
@@ -16,6 +16,7 @@ class conn{
     public function select($table, $rows = '*', $join = null, $where = null, $order = null, $limit = null)
     {
       $query = "select $rows from $table";
+      // return $query;
       if ($join != null) {
         $query .= " INNER JOIN $join";
       }

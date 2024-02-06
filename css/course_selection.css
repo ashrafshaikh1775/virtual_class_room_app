@@ -114,3 +114,6 @@ input[type="checkbox"] {
     border-radius: 10px;
     cursor: pointer;
 }
+.disable{
+cursor: not-allowed !important;
+}

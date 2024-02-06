@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>school_management_system</title>
+    <title>virtual_class_room_app</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/login.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -21,12 +21,11 @@
                 <input type="password" name="user_pass" id="user_pass"></input>
             </div>
             <div class="login_form_inner_div3">
-
                 <input type="radio" name="group" id="student" value='student'></input>
                 <label for='student' class="labels">Student</label>
-                <input type="radio" name="group" id="tutor"></input>
+                <input type="radio" name="group" id="tutor"  value='tutor'></input>
                 <label for='tutor' class="labels">Tutor</label>
-                <input type="radio" name="group" id="admin"></input>
+                <input type="radio" name="group" id="admin" value='admin'></input>
                 <label for='admin' class="labels">Admin</label>
             </div>
             <input type="submit" id="submit"></input>
